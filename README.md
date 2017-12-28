@@ -3,7 +3,7 @@ An exciting strategy board game created on python,as a part of learning project.
 More like a shorter version of chess, where one needs to stay focussed ,anticipate the other player moves and cover all the tracks.
 
 ## Installation guide
-#### For `Windows/Linux`
+#### Option 1: By creating a Executable file
 * Clone the repo
 ```sh
 $ git clone https://github.com/NJACKWinterOfCode/Race-the-car.git
@@ -22,6 +22,21 @@ $ sudo apt install cx-freeze
 $ python setup.py build
 ```
 * A folder named build will be created in the same directory which will be containing the executable file of the game.Run the excutable and enjoy Race-the-car.
+
+#### Option 2: Build from source
+* Clone the repo
+```sh
+$ git clone https://github.com/NJACKWinterOfCode/Race-the-car.git
+$ cd Race-the-car
+```
+* Install all dependencies using requirements.txt by executing the follwing command in command promt/terminal
+```sh
+$ pip install -r requirements.txt
+```
+* Now run the game source through command promt/terminal
+```sh
+$ python Race_the_car.py
+```
 
 ## Objective
 In this game two players need to reach the desired destination(the finish flag of respective colors), the one reaching first will win the game.
